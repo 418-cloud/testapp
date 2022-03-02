@@ -21,7 +21,7 @@ jobs:
 
     - name: Lint
       run: |
-        go get golang.org/x/lint/golint
+        go get -u golang.org/x/lint/golint
         golint ./...
     - name: Build
       run: go build -v .

@@ -1,6 +1,5 @@
 IMG=testapp:testing
 verify:
-	go get golang.org/x/lint/golint
 	golint ./...
 	go fmt -n ./...
 
