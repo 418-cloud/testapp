@@ -13,6 +13,6 @@ docker-build: test
 	ko publish -BL .
 
 run:
-	HOST=local.machine go run main.go -templateRoot=kodata
+	HOSTNAME=local.machine go run main.go
 
 docker-run: docker-build
