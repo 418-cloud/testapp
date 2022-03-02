@@ -65,7 +65,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	w.WriteHeader(200)
-	w.Write(generateHtml(response))
+	w.Write(generateHTML(response))
 }
 
 func errorHandler(w http.ResponseWriter, r *http.Request) {
@@ -87,7 +87,7 @@ func readIntParam(name string, r *http.Request) (value int) {
 	return
 }
 
-func generateHtml(input WebResponse) []byte {
+func generateHTML(input WebResponse) []byte {
 	templateDir := os.Getenv("KO_DATA_PATH")
 	if templateDir == "" {
 		templateDir = "kodata"
