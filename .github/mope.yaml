@@ -2,4 +2,5 @@ project:
   id: 1
 labelOwners:
   "test":
+    "logins":
     - "tjololo"
