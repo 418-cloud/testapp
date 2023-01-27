@@ -5,7 +5,7 @@ project:
 labelOwners:
   "test":
     "logins":
-    - "tjololo"
+    - "altinnadmin"
     "teams":
     - "test"
 forkPullRequests:
