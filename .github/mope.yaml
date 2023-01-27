@@ -6,6 +6,8 @@ labelOwners:
   "test":
     "logins":
     - "tjololo"
+    "teams":
+    - "test"
 forkPullRequests:
   labels:
     - external
