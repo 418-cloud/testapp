@@ -1,5 +1,7 @@
 project:
   id: 1
+  ids:
+  - 2
 labelOwners:
   "test":
     "logins":
