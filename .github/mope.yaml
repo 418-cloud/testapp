@@ -9,7 +9,4 @@ labelOwners:
     "teams":
     - "test"
 forkPullRequests:
-  labels:
-    - external
-    - needs-attention
   addToProject: true
