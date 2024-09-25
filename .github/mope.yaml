@@ -10,3 +10,6 @@ labelOwners:
     - "test"
 forkPullRequests:
   addToProject: true
+  labels:
+    - external
+    - needs-attention
